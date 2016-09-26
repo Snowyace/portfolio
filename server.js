@@ -12,7 +12,7 @@ app.set('port', process.env.PORT || 3000);
 
 //routes
 var route = require('./controllers/routes');
-app.get('/', route.root);
+app.get('https://snowyace.github.io/portfolio/', route.root);
 app.get('/works', route.works);
 app.get('/writing', route.writing);
 app.get('/about', route.about);
