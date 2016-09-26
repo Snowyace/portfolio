@@ -12,14 +12,12 @@ app.set('port', process.env.PORT || 3000);
 
 //routes
 var route = require('./controllers/routes');
-app.get('/portfolio', route.root);
+app.get('/', route.root);
 app.get('/works', route.works);
 app.get('/writing', route.writing);
 app.get('/about', route.about);
 app.get('/vue', route.vue);
-app.use(function(req, res){
-	res.status(404).render('not-found');
-});
+
 
 
 app.listen(app.get('port'), function(){
