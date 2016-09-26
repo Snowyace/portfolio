@@ -1,0 +1,132 @@
+body{
+	margin:0;
+}
+
+#splash{
+	height: 100vh;
+	background: black;
+}
+
+#projects{
+	height: 100vh;
+	background: blue;
+}
+
+.container{
+	margin: auto; /*#2*/
+	width:90%;
+}
+
+.education{
+	padding-top: 2%;
+}
+
+#footer{
+	margin-bottom: 2%;
+}
+.headers{
+	padding-top: 1%;
+}
+
+.headers > h1,h2,h3,h4,h5,h6 hr{
+	text-align: right;
+	margin:0;
+}
+
+hr{
+	margin: 0;
+}
+
+.left {
+	display: inline-block; /*#3*/
+	margin: 0;
+
+}
+.left h2{
+	margin: 0;
+	padding-top: 2%;
+	text-align: left;
+}
+.left p{
+	margin: 0;
+	margin-bottom: .5em;
+}
+
+.info{
+	text-align: center;
+}
+
+.info > p {
+	margin: 0;
+}
+
+p.jobtitle {
+	font-style: italic;
+}
+
+.navbar2 {
+    list-style-type: none;
+    color:#fff;
+    background-color: #2D2742;
+    display:inline-block;
+    background-image: url(http://www.transparenttextures.com/patterns/clean-textile.png); 
+    width:100%;
+    
+} 
+
+.navbar2{
+	list-style-type: none;
+    color:#000;
+    background-color: #2D2742;
+    background-image: url(http://www.transparenttextures.com/patterns/clean-textile.png); 
+}
+
+.navele2 {
+	list-style-type: none;
+    float: left;
+    padding:10px;
+    margin:10px;
+    color:#fff;
+     
+}
+
+.navele2 > a{
+
+	list-style-type: none;
+	text-decoration: none;
+	color:#fff;	
+}
+
+.navele2:hover{
+	background-color: #4F4F4C;
+}
+
+.right{
+	float: right; 
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	padding-top: 2%;
+	text-align: right;
+}
+
+.right > p{
+	margin: 0;
+	
+}
+
+.second{
+	padding-top: 1%;
+}
+/*Customize list style*/
+ul, li{
+	padding: 0;
+	margin: 0;
+	list-style-type: square;
+}
+.skills{
+	padding-left: 3em;
+}
+
+
+
