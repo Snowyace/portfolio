@@ -6,27 +6,35 @@
 		border: 0;
 		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue";
 		font-weight: 100;
-		font-size:1em;
-
 
 	}
 
-	@media (max-width: 799px){
+	@media (max-device-width: 900px){
+
 		.content{
-			width: 90vw;
+			width: 80vw;
+			font-size: 3em;
+		}
+		.content h1, .welcom e{
+			font-size: 2em;
+			font-weight: normal;
 		}
 
 		.welcome, #welcome, .right {
-			font-size: 2.5em;
+			font-size: 5em;
 			display: flex;
 			flex-direction: column;
+
 		}
 		.fp-controlArrow{
 			display: none;			
 		}
 		.navbar:hover .dropdown {
 		visibility: hidden;
-	}
+		}
+		a:hover{
+			background-color: #fff;
+		}
 
 
 	}
@@ -38,6 +46,12 @@
 		width: 50vw;
 		color: #000;
 		}
+		.content h1{
+			padding-top: 10px;
+			padding-bottom: 10px;
+			font-weight: 500;
+	    	width: 100vw;
+	}
 
 		.welcome{
 			font-size: 7em;
@@ -141,12 +155,7 @@
 
 	}
 
-	.content h1{
-			padding-top: 10px;
-			padding-bottom: 10px;
-			font-weight: 500;
-	    	width: 100vw;
-	}
+	
 
 	.content li{
 		margin: 10px 0 0 50px;
