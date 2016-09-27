@@ -11,15 +11,42 @@
 	}
 
 	@media (max-device-width: 900px){
+	
 
+		.pizza{
+			background-color: #FFF;
+
+
+
+		}
+
+		.menu{
+			position: relative;
+			padding-left: 1.25em;
+		}
+		.menu:before{
+			content: "";
+			position: fixed;
+			top: 2em;
+			right: 1em;
+			width: 1.5em;
+			height: .25em;
+			background-color: #43b5d0;
+			box-shadow: 
+				0 0.40em 0 0 #43b5d0,
+				0 .8em 0 0 #43b5d0;
+
+		}
 		.content{
-			width: 80vw;
+			position: relative;
+			margin-right: 60px;
+			margin-left: 1%;
 			
 		}
 		.content h1, .welcome{
 			
 			font-weight: normal;
-			
+
 		}
 
 		.welcome, #welcome, .right {
@@ -42,10 +69,13 @@
 	}
 
 	@media (min-width: 1024px){
+		body{
+			font-size: 2em;
+		}
+
 		.content{
-		
 		margin: 50px 200px 200px 200px;
-		width: 100vw;
+		width: 50vw;
 		color: #000;
 		}
 		.content h1{
