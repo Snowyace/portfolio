@@ -20,17 +20,17 @@ $( document ).ready(function() {
         loopHorizontal: true,
         continuousVertical: true,
         continuousHorizontal: false,
-        scrollHorizontally: false,
+        scrollHorizontally: true,
         interlockedSlides: false,
         resetSliders: false,
         fadingEffect: true,
         normalScrollElements: '.content',
         scrollOverflow: true,
         scrollOverflowOptions: null,
-        touchSensitivity: 100,
+        touchSensitivity: 10,
         normalScrollElementTouchThreshold: 5,
         bigSectionsDestination: null,
-        responsiveHeight: 100
+        
 	});
 	 console.log( "ready!" );
 	$('.arrowUp').click(function(){
