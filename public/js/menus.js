@@ -27,7 +27,7 @@ $( document ).ready(function() {
         normalScrollElements: '.content',
         scrollOverflow: true,
         scrollOverflowOptions: null,
-        touchSensitivity: 10,
+        touchSensitivity: 90,
         normalScrollElementTouchThreshold: 5,
         bigSectionsDestination: null,
         
