@@ -154,6 +154,7 @@
 		img{
 			max-width: 50vw;
 			padding: 5%;
+			cursor: zoom-in;
 		
 		}
 	}
@@ -224,7 +225,6 @@
 
 	.content li{
 		margin: 10px 0 0 50px;
-		font-size: .6em;
 	}
 	.content p {
 		padding-bottom: 2em;

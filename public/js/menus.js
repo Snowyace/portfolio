@@ -39,8 +39,15 @@ $( document ).ready(function() {
 
 $('.arrowDown').click(function(){
     $.fn.fullpage.moveSectionDown();
-}); 
-	
+});
+
+
+$('img').click(function(event){
+   $(this).attr("href", $(this).attr('src' ));
+   $(this).magnificPopup({type:'image'});
+   event.preventDefault();
+});
+
 });
 
 new Vue({
