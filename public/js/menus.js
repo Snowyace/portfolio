@@ -42,12 +42,10 @@ $('.arrowDown').click(function(){
 });
 
 
-$('img').click(function(event){
+$('img').click(function(){
    $(this).attr("href", $(this).attr('src' ));
-   $(this).magnificPopup({type:'image'});
-   event.preventDefault();
 });
-
+$('img').magnificPopup({type:'image'});
 });
 
 new Vue({
