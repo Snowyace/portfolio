@@ -4,9 +4,7 @@
 		padding: 0;
 		margin: 0;
 		border: 0;
-		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue";
-		font-weight: 100;
-		font-size: 1em;
+		
 
 	}
 
@@ -41,8 +39,8 @@
 		}
 		.content{
 			position: relative;
-			margin-right: 60px;
-			margin-left: 1%;
+			margin-right: 3em;
+			margin-left: 1em;
 			
 		}
 		.content h1, .welcome{
@@ -79,8 +77,9 @@
 		margin: 50px 200px 200px 200px;
 		width: 70vw;
 		color: #000;
+		font-size: 1em;
 		}
-		.content h1{
+		.content h1,h2{
 			padding-top: 10px;
 			padding-bottom: 10px;
 			font-weight: 500;
@@ -92,6 +91,7 @@
 			padding-top: 1em;
 			font-size: 2em;
 			color: #000;
+
 		}
 
 		.right{
@@ -105,6 +105,8 @@
 			cursor:default;
 			color: #000;
 			font-size: 2em;
+			font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue";
+			font-weight: 100;
 		}
 		.arrowUp, 
 		.arrowDown{
@@ -143,6 +145,7 @@
 
 	.navbar a{
 		color: #000;
+
 	}
 	body{
 		background-color: #FCFBE3;
@@ -156,7 +159,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		background-color: #FFF9F1;
+		background-color: #FFF;
 		padding-top: 20vh;
 		
 	}
@@ -166,7 +169,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		background-color: #FFF9F1;
+		background-color: #FFF;
 		/*color: #c3c4c6;*/
 		
 		
@@ -198,7 +201,7 @@
 		margin: 10px 0 0 50px;
 	}
 	.content p {
-		padding-bottom: 50px;
+		padding-bottom: 2em;
 		font-size: 	.6em;
 		line-height: 1.5;
 	}
@@ -209,6 +212,8 @@
 		position: relative;
 		float: left;
 		cursor: default;
+		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue";
+		font-weight: 100;
 		
 	}
 
