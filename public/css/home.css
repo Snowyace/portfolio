@@ -19,6 +19,11 @@
 		z-index: 10;
 		overflow: hidden;
 		flex-direction: column;
+		
+	}
+
+	#loader img{
+		cursor: default;
 	}
 
 	#loader h1{
