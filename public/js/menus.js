@@ -4,11 +4,11 @@ $( document ).ready(function() {
         $.fn.fullpage.setAllowScrolling(false);
         $.fn.fullpage.setMouseWheelScrolling(false);
         // Animate loader off screen
-        $("#loader").fadeOut(400);
+        $("#loader").fadeOut(2000);
 
-        $("#fullpage").fadeIn(400);
+        $("#fullpage").fadeIn(2000);
 
-        $(".arrow").fadeIn(400);
+        $(".arrow").fadeIn(2000);
         $.fn.fullpage.setAllowScrolling(true);
         $.fn.fullpage.setMouseWheelScrolling(true);
 
