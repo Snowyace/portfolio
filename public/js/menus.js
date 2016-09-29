@@ -1,11 +1,16 @@
 $( document ).ready(function() {
+   
     $(window).load(function() {
         $.fn.fullpage.setAllowScrolling(false);
+        $.fn.fullpage.setMouseWheelScrolling(false);
         // Animate loader off screen
-        $("#loader").fadeOut("slow");
+        $("#loader").fadeOut(400);
+
         $("#fullpage").fadeIn(400);
+
         $(".arrow").fadeIn(400);
         $.fn.fullpage.setAllowScrolling(true);
+        $.fn.fullpage.setMouseWheelScrolling(true);
 
 
     });
