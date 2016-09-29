@@ -22,4 +22,8 @@ exports.vue = function(req, res) {
   res.render('vue');
 };
 
+exports.sandbox = function(req, res){
+	res.render('sandbox');
+}
+
 

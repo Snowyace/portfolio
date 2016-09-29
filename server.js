@@ -17,7 +17,7 @@ app.get('/works', route.works);
 app.get('/writing', route.writing);
 app.get('/about', route.about);
 app.get('/vue', route.vue);
-
+app.get('/sandbox', route.sandbox);
 
 
 app.listen(app.get('port'), function(){
