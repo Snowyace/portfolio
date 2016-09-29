@@ -102,7 +102,11 @@
 			font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue";
 			font-weight: 100;
 			font-size: 1.5em;
-	}
+		}
+
+		.content li{
+			font-size: 0.8em;
+		}
 
 		.welcome{
 			padding: 1em 0 .5em 0;
@@ -161,6 +165,10 @@
 			padding: 5%;
 			cursor: zoom-in;
 		
+		}
+
+		.content ul{
+			font-size: 0.8em;
 		}
 	}
 
