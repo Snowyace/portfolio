@@ -29,9 +29,41 @@
 		color: #F00;
 		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue";
 		font-weight: 100;
-		font-size: 1.5em;
-		padding-top: 2em;
+		font-size: 2em;
+		padding-top: 3em;
+		-webkit-animation: pulsate .5s ease-out;
+        -webkit-animation-iteration-count: infinite; 
+        animation: pulsate .5s ease-out;
+        animation-iteration-count: infinite;
 	}
+
+	@-webkit-keyframes pulsate {
+    	0% { 
+        opacity: 0.3;
+    	}
+    	50% { 
+        opacity: 1.0;
+    	}
+    	100% { 
+        opacity: 0.3;
+    	}
+	}
+
+    @keyframes pulsate{
+    	0% { 
+        opacity: 0.3;
+    	}
+    	50% { 
+        opacity: 1.0;
+    	}
+    	100% { 
+        opacity: 0.3;
+    	}
+    }
+
+
+
+
 	#fullpage{
 		display: none;
 		
