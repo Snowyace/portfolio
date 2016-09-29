@@ -1,6 +1,18 @@
 $( document ).ready(function() {
+    $(window).load(function() {
+        $.fn.fullpage.setAllowScrolling(false);
+        // Animate loader off screen
+        $("#loader").fadeOut("slow");
+        $("#fullpage").fadeIn(400);
+        $(".arrow").fadeIn(400);
+        $.fn.fullpage.setAllowScrolling(true);
+
+
+    });
+
 	
-	$('#fullpage').fullpage({
+
+    $('#fullpage').fullpage({
 		anchors:['home', 'works','writing'],
         showActiveTooltip: false,
         slidesNavigation: true,

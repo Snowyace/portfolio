@@ -5,25 +5,8 @@ exports.root = function(req, res) {
 
 };
 
-exports.works = function(req, res) {
-  res.render('works',{title: 'works'})
-;
-};
 
-exports.writing = function(req, res) {
-  res.render('writing');
-};
 
-exports.about = function(req, res) {
-  res.render('about');
-};
 
-exports.vue = function(req, res) {
-  res.render('vue');
-};
-
-exports.sandbox = function(req, res){
-	res.render('sandbox');
-}
 
 
