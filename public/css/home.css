@@ -120,13 +120,12 @@
 			
 		}
 		#welcome{
-			
-			padding-left: 10%;
 			cursor:default;
 			color: #000;
 			font-size: 2em;
 			font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue";
 			font-weight: 100;
+			padding-left: .8em;
 		}
 		.arrowUp, 
 		.arrowDown{
@@ -148,6 +147,9 @@
 		    right: 5%;
 		    color: #43b5d0;
 		    
+		}
+		.navbar{
+			font-size: 1.5em;
 		}
 		.navbar:hover .dropdown {
 			visibility: visible;
