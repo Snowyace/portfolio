@@ -1,24 +1,22 @@
 $( document ).ready(function() {
-   
+   $('#fullpage').scroll(function(event){
+        event.preventDefault();
+   });
     $(window).load(function() {
-        $.fn.fullpage.setAllowScrolling(false);
-        $.fn.fullpage.setMouseWheelScrolling(false);
         // Animate loader off screen
         $("#loader").fadeOut(2000);
 
         $("#fullpage").fadeIn(2000);
 
-        $(".arrow").fadeIn(2000);
-        $.fn.fullpage.setAllowScrolling(true);
-        $.fn.fullpage.setMouseWheelScrolling(true);
-
-
+        $(".arrow").fadeIn(2000); 
     });
 
-	
+
 
     $('#fullpage').fullpage({
-		anchors:['home', 'works','writing'],
+		
+
+        anchors:['home', 'works','writing'],
         showActiveTooltip: false,
         slidesNavigation: true,
         slidesNavPosition: 'bottom',
@@ -47,6 +45,7 @@ $( document ).ready(function() {
         touchSensitivity: 1,
         normalScrollElementTouchThreshold: 5,
         bigSectionsDestination: null,
+
         
 	});
 	 console.log( "ready!" );

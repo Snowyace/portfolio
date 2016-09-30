@@ -29,8 +29,8 @@
 		color: #F00;
 		font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue";
 		font-weight: 100;
-		font-size: 2em;
-		padding-top: 3em;
+		font-size: 3em;
+		padding-top: 2em;
 		-webkit-animation: pulsate .5s ease-out;
         -webkit-animation-iteration-count: infinite; 
         animation: pulsate .5s ease-out;
@@ -126,23 +126,25 @@
 			position: relative;
 			margin-right: 3em;
 			margin-left: 1em;
-			
+			margin-bottom: 3em;
 		}
 		.content h1, .welcome{
-			font-size: 	2em;
+			font-size: 	1.75em;
 			font-weight: normal;
 
 		}
 
 
-
 		.welcome, #welcome, .right {
-			font-size: 3em;
+			font-size: 2.25em;
 			display: flex;
 			flex-direction: column;
 			font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue";
 			font-weight: 100;
 
+		}
+		#welcome ,.right{
+			font-size: 3em;
 		}
 		.fp-controlArrow{
 			display: none;			
