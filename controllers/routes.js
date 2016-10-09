@@ -5,6 +5,11 @@ exports.root = function(req, res) {
 
 };
 
+exports.sandbox = function(req, res) {
+  console.log('holo');
+  res.render('sandbox');
+};
+
 
 
 
