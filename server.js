@@ -8,12 +8,16 @@ app.set('views', __dirname + '/views');
 app.use(express.static(__dirname + '/public')); 
 
 
+
+
 app.set('port', process.env.PORT || 3000);
 
 //routes
 var route = require('./controllers/routes');
 app.get('/', route.root);
 app.get('/sandbox', route.sandbox);
+
+
 
 
 
